@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Secure Pi | Dashboard</title>
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<img src="./images/ArteveldehsLogo.png" alt="Logo Artevelde">
+			<div class="headerTitles">
+				<h1>Secure Pi</h1>
+				<h2>Created by <br> Wouter Janssens & Senne Wancour</h2>
+			</div>
+		</div>
+		<div class="latest-time">
+			<div id="latestCard" class="latest-time__card">
+				<p>Latest movement recorded at:</p>
+			</div>
+		</div>
+		<div class="all-events">
+			<div class="all-events__card">
+				<h2 id="firstLi">Movement in the last 48 hours</h2>
+				<ul id="eventlist" class="eventlist">
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.0.4/jscolor.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+	<script src="./config/firebase.js"></script>
+	<script type="text/javascript" src="./index.js"></script>
+
+</body>
+
+</html>
