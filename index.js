@@ -28,7 +28,7 @@ function getLatestEvent() {
 
 getLatestEvent();
 
-// GETTING ALL EVENTS OF LAST 24 HOURS
+// GETTING ALL EVENTS OF LAST 48 HOURS
 async function getDataEvents() {
 
 	const eventlist = document.getElementById('eventlist');
